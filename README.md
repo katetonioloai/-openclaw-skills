@@ -1,6 +1,6 @@
 # 🤖 OpenClaw Skills — Toniolo AI Agency
 
-[![Skills](https://img.shields.io/badge/skills-14-blue)](https://github.com/katetonioloai/-openclaw-skills)
+[![Skills](https://img.shields.io/badge/skills-21-blue)](https://github.com/katetonioloai/-openclaw-skills)
 [![Platform](https://img.shields.io/badge/platform-OpenClaw-black)](https://github.com/openclaw/openclaw)
 [![Status](https://img.shields.io/badge/status-production-green)](https://x.com/toniolo32292)
 [![Commission](https://img.shields.io/badge/custom%20skills-DM%20us-orange)](https://x.com/toniolo32292)
@@ -130,3 +130,49 @@ OpenClaw agents auto-discover skills in the workspace. The agent reads `SKILL.md
 ---
 
 *Toniolo AI Agency · Building agent infrastructure since 2026 · [Follow our journey](https://x.com/toniolo32292)*
+
+---
+
+## 🔧 Utility Skills
+
+### 🎙️ [openai-whisper](./openai-whisper)
+Local speech-to-text — transcribe audio files with no API key needed.
+- Runs fully local via Whisper CLI
+- Supports ogg, mp3, mp4, wav and more
+- Used in production to transcribe every voice message
+
+### 𝕏 [xurl](./xurl)
+Full X (Twitter) API access — post, reply, search, DM, upload media.
+- OAuth1 + OAuth2 support
+- Post with images, reply to threads, search mentions
+- Powers automated X posting pipeline
+
+### 📝 [summarize](./summarize)
+Summarize URLs, YouTube videos, podcasts, and local files.
+- Extract transcripts from YouTube
+- Summarize articles and long-form content
+- No API key required for most sources
+
+### 🎞️ [video-frames](./video-frames)
+Extract frames and short clips from videos using ffmpeg.
+- Screenshot any frame from a video
+- Cut clips by timestamp
+- Batch frame extraction
+
+### 🐙 [github](./github)
+GitHub operations via `gh` CLI — issues, PRs, CI, code review.
+- Check PR status and CI runs
+- Create and comment on issues
+- Query any GitHub API endpoint
+
+### 🌤️ [weather](./weather)
+Current weather and forecasts for any location — no API key.
+- Powered by wttr.in and Open-Meteo
+- Supports any city or coordinates
+- Instant, no setup
+
+### 💻 [coding-agent](./coding-agent)
+Delegate complex coding tasks to Codex or Claude Code agents.
+- Spawn isolated coding sessions for big features
+- Review PRs in temp directories
+- Refactor large codebases autonomously
