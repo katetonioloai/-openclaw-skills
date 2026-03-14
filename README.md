@@ -37,14 +37,6 @@ Push videos to TikTok Studio drafts via Playwright — no API approval needed.
 - Session-authenticated, bypasses unaudited app restrictions
 - Caption + hashtags + draft in one command
 
-### 🎬 [pipeline-b](./pipeline-b)
-End-to-end TikTok Shop BOF video generator.
-```
-Product JSON → AI Images → Kling Video → ElevenLabs Voice → Text Overlay → TikTok Draft
-```
-- Fully automated from product JSON to ready-to-post draft
-- Products: TIRTIR, Centella Serum, Medicube (extensible)
-
 ### 🔍 [apify-scraper](./apify-scraper)
 Run 4,000+ Apify actors from any OpenClaw agent.
 - TikTok, Instagram, Google Maps, Amazon, and thousands more
